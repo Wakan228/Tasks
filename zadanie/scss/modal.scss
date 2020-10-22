@@ -1,0 +1,61 @@
+
+.input_name{
+	width:100%;
+}
+.input_up{
+	width:100%;
+
+}
+.btn_delete{
+	border-radius:5px;
+	background-color:#D04444;
+	>:hover{
+		background-color:red;
+	}
+}
+.tune{
+	background-color:#33BE33;
+	>:hover{
+		background-color:green;
+	}
+}
+.input{
+	margin-bottom: 10px;
+}
+.task_box{
+	max-width: 500px;
+	word-break: break-all;
+}
+.modal-title{
+	text-align: center;
+}
+textarea{
+	width:100%;
+	min-height: 200px;
+	padding:5px;
+}
+.op_task_tune{
+	background-color:#38B838;
+	height:62px;
+}
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 500px;
+    &_give{
+    	max-width: 1000px;
+    }
+    }
+}
+.btn_gived{
+	width:100px !important;
+	background-color:#227D22;
+	transition: 0.5s;
+	&>:hover{
+		background-color:#33BE33;
+		transition: 0.5s;
+	}
+}
+.op_task_delete{
+	background-color:#FF0000;
+	height:62px;
+}

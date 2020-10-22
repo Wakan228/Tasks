@@ -1,0 +1,287 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-color: #5775D0;
+  height: 75px;
+  width: 100%;
+}
+
+.img_box {
+  width: 50px;
+  height: 50px;
+}
+.img_box > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+.header_main {
+  padding-top: 12.5px;
+  width: 100%;
+}
+
+.account_box {
+  display: flex;
+  justify-content: flex-end;
+  vertical-align: center;
+}
+
+.sign_in {
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #5775D0;
+}
+
+.sign_up {
+  margin-left: 10px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.sign-in_box_main {
+  margin-top: 7px;
+}
+
+.account_customization {
+  padding: 0px;
+  background-color: #5775D0;
+}
+.account_customization > img {
+  width: 40px;
+  height: 40px;
+}
+
+.account_exit {
+  margin-top: 2px;
+  margin-left: 10px;
+  height: 100%;
+  padding: 4px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.account_exit {
+  cursor: pointer;
+}
+.account_exit > a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.account_customization {
+  cursor: pointer;
+}
+
+.img_box {
+  cursor: pointer;
+}
+
+.input_name {
+  width: 100%;
+}
+
+.input_up {
+  width: 100%;
+}
+
+.btn_delete {
+  border-radius: 5px;
+  background-color: #D04444;
+}
+.btn_delete > :hover {
+  background-color: red;
+}
+
+.tune {
+  background-color: #33BE33;
+}
+.tune > :hover {
+  background-color: green;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.task_box {
+  max-width: 500px;
+  word-break: break-all;
+}
+
+.modal-title {
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  min-height: 200px;
+  padding: 5px;
+}
+
+.op_task_tune {
+  background-color: #38B838;
+  height: 62px;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 500px;
+  }
+  .modal-dialog_give {
+    max-width: 1000px;
+  }
+}
+.btn_gived {
+  width: 100px !important;
+  background-color: #227D22;
+  transition: 0.5s;
+}
+.btn_gived > :hover {
+  background-color: #33BE33;
+  transition: 0.5s;
+}
+
+.op_task_delete {
+  background-color: #FF0000;
+  height: 62px;
+}
+
+.container {
+  margin-top: 20px;
+  height: 100px;
+}
+
+.done {
+  background-color: #38B838;
+  padding: 10px;
+  transform: 0.5s;
+}
+.done > img {
+  width: 40px;
+  height: 40px;
+}
+
+.task-add {
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #F0F2F5;
+  width: 100px;
+  transition: 0.5s;
+}
+.task-add > img {
+  width: 100px;
+  height: 100px;
+}
+.task-add > a > img {
+  width: 100px;
+  height: 100px;
+}
+.task-add > :hover {
+  background-color: #B4B6B8;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.main {
+  display: flex;
+}
+
+.main_task {
+  max-width: 100%;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+.task_box {
+  float: left;
+  margin-top: 20px;
+  background-color: #F0F2F5;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.main_menu {
+  margin-top: -20px;
+}
+
+.add_task {
+  background-color: #38B838;
+  padding: 10px;
+  transform: 0.5s;
+}
+.add_task > img {
+  width: 40px;
+  height: 40px;
+}
+
+.op_task {
+  background-color: #5775D0;
+  height: 62px;
+}
+.op_task > img {
+  margin-top: 4px;
+  width: 40px;
+  height: 40px;
+}
+
+.give_task {
+  height: 62px;
+  background-color: red;
+}
+.give_task > img {
+  margin-top: 4px;
+  height: 40px;
+  width: 40px;
+}
+
+.main_user {
+  background-color: #F0F2F5;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.head_box_user {
+  width: 100%;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.task_user_a {
+  color: #0062F5;
+  margin-left: 10px;
+}
+
+.menu_task_box {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.filter {
+  background-color: #F0F2F5;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid black;
+  margin-top: 10px;
+  cursor: pointer;
+}

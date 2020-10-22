@@ -1,0 +1,84 @@
+.container{
+	margin-top: 20px;
+	height: 100px;
+}
+ .done{
+	background-color:#38B838;
+	padding:10px;
+	transform:0.5s;
+	>img{
+		width:40px;
+		height:40px;
+	}
+}
+
+
+.task-add{
+	margin-top: 20px;
+	cursor:pointer;
+	border-radius: 5px;
+	background-color: #F0F2F5;
+	width:100px;
+	transition: 0.5s;
+		>img{
+		width:100px;
+		height:100px;
+	}
+	>a{
+		>img{
+		width:100px;
+		height:100px;
+		}
+	}
+	>:hover{
+		background-color:#B4B6B8;
+		border-radius: 5px;
+		transition: 0.5s;
+
+	}
+}
+.main{
+	display: flex;
+}
+.main_task{
+	max-width: 100%;
+	margin-left: 20px; 
+	margin-top: -20px;
+}
+.task_box{
+	float: left;
+	margin-top: 20px;
+	background-color:  #F0F2F5;
+	border-radius:5px;
+	padding:10px;
+}
+.main_menu{
+	margin-top: -20px;
+}
+.add_task{
+	background-color:#38B838;
+	padding:10px;
+	transform:0.5s;
+	>img{
+		width:40px;
+		height:40px;
+	}
+}
+.op_task{
+	background-color: #5775D0;
+	height:62px;
+	>img{
+		margin-top: 4px;
+		width:40px;
+		height:40px;		
+	}
+}
+.give_task{
+	height:62px;
+	background-color: red;
+	>img{
+		margin-top: 4px;
+		height:40px;
+		width:40px;
+	}
+}
